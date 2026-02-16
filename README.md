@@ -2,7 +2,7 @@
 
 A simple React application demonstrating basic event handling and form interactions.
 
-## 🚀 Features
+##  Features
 
 - Handle button click events
 - Handle paragraph click events
@@ -11,7 +11,7 @@ A simple React application demonstrating basic event handling and form interacti
 - Styled responsive UI with modern layout
 - Hover effects and focus effects
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - React
 - JavaScript (ES6)
@@ -31,7 +31,7 @@ react-project-seven/
 ├── package.json
 └── README.md
 ```
-## 📸 Preview
+##  Preview
 
 This project includes:
 - Input field with live value tracking
@@ -57,7 +57,7 @@ This project includes:
 
    npm run dev
 
-## 📌 Purpose
+##  Purpose
 
 This project is built to practice:
 - React functional components
