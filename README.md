@@ -39,7 +39,7 @@ This project includes:
 - Clickable paragraph
 - Interactive UI with hover animations
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository:
 
