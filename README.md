@@ -1,20 +1,68 @@
-<<<<<<< HEAD
-# React + Vite
+# React Event Handling Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application demonstrating basic event handling and form interactions.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Handle button click events
+- Handle paragraph click events
+- Capture input field changes
+- Handle form submission
+- Styled responsive UI with modern layout
+- Hover effects and focus effects
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript (ES6)
+- CSS3
+- Vite (if used for setup)
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
+```
+react-project-seven/
+│
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+└── README.md
+```
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# react-project_07
->>>>>>> 29ea36b18ff333341a1ab6ec8001f9be39d35ab1
+This project includes:
+- Input field with live value tracking
+- Styled submit button
+- Clickable paragraph
+- Interactive UI with hover animations
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+   git clone https://github.com/KrishGhori/react-project-seven.git
+
+2. Navigate into the project folder:
+
+   cd react-project-seven
+
+3. Install dependencies:
+
+   npm install
+
+4. Run the development server:
+
+   npm run dev
+
+## 📌 Purpose
+
+This project is built to practice:
+- React functional components
+- Event handling
+- Form submission
+- Basic UI styling
+
+
