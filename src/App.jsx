@@ -20,24 +20,40 @@ function handlesubmit(e){
   alert("are you sure?", e.target.value);
 }
 
-  return (
-  <div className="container">
-    <h1>Simple React Form</h1>
-    <p className="subtitle">Enter your name and test event handling</p>
+ return (
+  <>
+    <nav className="navbar">
+      <div className="logo">ReactApp</div>
+      <ul className="nav-links">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
 
-    <form onSubmit={handlesubmit}>
-      <input type="text" placeholder="Enter your name" onChange={handleinput} />
-      <button type="submit">Submit</button>
-    </form>
+    <div className="container">
+      <h1>Simple React Form</h1>
+      <p className="subtitle">Enter your name and test event handling</p>
 
-    <p onClick={handlepera}>Click this paragraph</p>
-    <button onClick={handleclick}>Click Me</button>
+      <form onSubmit={handlesubmit}>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          onChange={handleinput}
+        />
+        <button type="submit">Submit</button>
+      </form>
 
-    <div className="footer-text">
-      React Event Handling Practice Project
+      <p onClick={handlepera}>Click this paragraph</p>
+      <button onClick={handleclick}>Click Me</button>
+
+      <div className="footer-text">
+        React Event Handling Practice Project
+      </div>
     </div>
-  </div>
+  </>
 );
+
 
 }
 
